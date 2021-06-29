@@ -1,0 +1,19 @@
+.wordarea{
+    height:100vh;
+}
+.wordarea .slider{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+.worddisplay{
+    position:absolute;
+    left:50%;
+    top:20%;
+    transform:translateX(-50%);
+    text-align: center;
+}
+.worddisplay .words{
+    font-size:3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
