@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-speedreader/static/css/main.876e4212.chunk.css",
+    "main.js": "/react-speedreader/static/js/main.7ec97e7b.chunk.js",
+    "main.js.map": "/react-speedreader/static/js/main.7ec97e7b.chunk.js.map",
+    "runtime-main.js": "/react-speedreader/static/js/runtime-main.c4628f91.js",
+    "runtime-main.js.map": "/react-speedreader/static/js/runtime-main.c4628f91.js.map",
+    "static/js/2.7c6201e7.chunk.js": "/react-speedreader/static/js/2.7c6201e7.chunk.js",
+    "static/js/2.7c6201e7.chunk.js.map": "/react-speedreader/static/js/2.7c6201e7.chunk.js.map",
+    "static/js/3.5a4a6027.chunk.js": "/react-speedreader/static/js/3.5a4a6027.chunk.js",
+    "static/js/3.5a4a6027.chunk.js.map": "/react-speedreader/static/js/3.5a4a6027.chunk.js.map",
+    "index.html": "/react-speedreader/index.html",
+    "static/css/main.876e4212.chunk.css.map": "/react-speedreader/static/css/main.876e4212.chunk.css.map",
+    "static/js/2.7c6201e7.chunk.js.LICENSE.txt": "/react-speedreader/static/js/2.7c6201e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4628f91.js",
+    "static/js/2.7c6201e7.chunk.js",
+    "static/css/main.876e4212.chunk.css",
+    "static/js/main.7ec97e7b.chunk.js"
+  ]
+}
