@@ -1,0 +1,11 @@
+.word{
+    margin-right:0.3rem;
+    cursor:pointer;
+}
+.word.selected{
+    color:blue;
+}
+.wordseeker{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-wrap:break-word;
+}

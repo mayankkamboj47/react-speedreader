@@ -1,5 +1,7 @@
+
 function NewButton({dispatch}){
-    return (<button onClick={()=>dispatch({words:[]})}>
+    let onClick = ()=>dispatch({words:[],position:0});
+    return (<button className='button-new' onClick={onClick}>
     New
     </button>);
 }

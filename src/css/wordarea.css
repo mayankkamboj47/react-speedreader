@@ -1,6 +1,12 @@
 .wordarea{
     height:100vh;
+    padding:0.5rem 1rem;
 }
+.wordarea--dark{
+    background:black;
+    color:white;
+}
+
 .wordarea .slider{
     position:absolute;
     bottom:10px;
@@ -9,9 +15,20 @@
 .worddisplay{
     position:absolute;
     left:50%;
-    top:20%;
+    top:30%;
     transform:translateX(-50%);
-    text-align: center;
+    text-align: center; 
+}
+.worddisplay .playControls{
+    margin-top:1rem;
+    display:inline-flex;
+    width:15rem;
+}
+.playControls .btn:first-child{
+    margin-right:auto;
+}
+.playControls .btn:last-child{
+    margin-left:auto;
 }
 .worddisplay .words{
     font-size:3rem;

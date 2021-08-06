@@ -1,0 +1,16 @@
+.inputComponent{
+    min-height:100vh;
+    padding:1rem;
+}
+.inputComponent--dark{
+    background-color:black;
+    color:white;
+}
+.inputComponent input[type='text']{
+    margin-right:1rem;
+}
+.inputComponent--dark input[type='text']{
+    background-color: #555;
+    color:white;
+    border:none;
+}

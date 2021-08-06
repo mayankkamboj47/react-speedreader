@@ -1,0 +1,33 @@
+ol.settingsList{
+    list-style:none;
+    min-width:250px;
+    overflow:auto;
+    margin:0;
+    padding:0.5rem;
+    box-shadow:0 0 1rem 0.2rem #e3e3e3;
+}
+.settingsList li label > *{
+    margin-left:1rem;
+}
+
+ol.settingsList--dark{
+    box-shadow:none;
+    border:1px solid white;
+}
+
+ol.settingsList li{
+    padding:0.5rem 0;
+}
+
+ol input{
+    max-width:3rem;
+}
+
+ol.settingsList input,select{
+    padding:0.5rem 1rem;
+}
+
+ol.settingsList--dark input, ol.settingsList--dark select{
+    background:black;
+    color:white;
+}

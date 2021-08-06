@@ -16,3 +16,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*::selection{
+  background-color:gray;
+  color:white;
+}
+input,button{
+  padding:0.5rem 1rem;
+}
+
+input[type='button'], button{
+  background-color:white;
+  border:1px solid blue;
+  color:blue;
+  border-radius:0.2rem;
+  transition:all 0.1s linear;
+}
+button::after, .btn::after{
+  content:attr(data-text);
+  display:block;
+  font-weight:bolder;
+  height:0;
+  visibility: hidden;
+}
+input[type='button'].btn--dark, button.btn--dark{
+  background-color:black;
+  border-color:white;
+  color:white;
+}
+.btn--dark:hover, button.btn--dark:hover{
+  border-color:black;
+}
+.tooltip{
+  color:white;
+  background:black;
+  display:inline-block;
+  padding:0.5rem 3rem 0.5rem 1rem;
+  font-size:0.8rem;
+  border-radius:0.3rem;
+  position:relative;
+}
+.tooltip::after{
+  content:" ^ ";
+  display:inline-block;
+  position:absolute;
+  margin-left:1rem;
+  transform:scale(3 , -1) translateY(10%);
+}
+
+.button-new{
+  background-color:blue;
+  color:white;
+  font-weight:bold;
+}
+
+input[type='button']:hover, button:hover{
+  color:white;
+  font-weight:bolder;
+  background-color:blue;
+}
+
+.word-seeker-container{
+  padding:0.5rem 1rem;
+}
+
+.word-seeker-container--dark{
+  background-color:black;
+  color:white;
+}
